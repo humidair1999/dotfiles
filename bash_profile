@@ -6,6 +6,15 @@ for file in ~/.{aliases,bash_prompt}; do
 done
 unset file
 
+# Case-insensitive globbing (used in pathname expansion)
+shopt -s nocaseglob;
+
+# Autocorrect typos in path names when using `cd`
+shopt -s cdspell;
+
+bind "set completion-ignore-case on"
+bind "set show-all-if-ambiguous on"
+
 export PATH="/usr/local/bin:$PATH"
 
 eval "$(rbenv init -)"
