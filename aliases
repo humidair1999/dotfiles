@@ -1,6 +1,6 @@
 unalias -a
 
-# Easier navigation: .., ..., ~ and -
+# Easier navigation
 alias ..="cd .."
 alias ~="cd ~" # `cd` is probably faster to type though
 alias -- -="cd -"

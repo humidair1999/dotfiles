@@ -4,10 +4,10 @@ for file in ~/.{aliases,bash_prompt}; do
 done
 unset file
 
-# Case-insensitive globbing (used in pathname expansion) when using '*'
+# Case-insensitive globbing (used in pathname expansion) when using `*`
 shopt -s nocaseglob;
 
-# Autocorrect typos in path names when using 'cd'
+# Autocorrect typos in path names when using `cd`
 shopt -s cdspell;
 
 # http://superuser.com/questions/90196/case-insensitive-tab-completion-in-bash
