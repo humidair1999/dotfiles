@@ -47,8 +47,6 @@ alias gcl='git clone'
 
 alias gaa='git add -A'
 
-alias gc='git commit -v'
-alias gca='git commit -v -a'
 alias gcm='git commit -v -m'
 alias gci='git commit --interactive'
 
@@ -61,19 +59,21 @@ alias gbd='git branch -D'
 alias gm='git merge'
 
 alias gl='git pull'
-alias gpr='git pull --rebase'
-alias gpp='git pull && git push'
-alias gup='git fetch && git rebase'
+alias glr='git pull --rebase'
+
+alias gfr='git fetch && git rebase'
 
 alias gp='git push'
 alias gpo='git push origin'
-alias gpou='git push -u origin'
+alias gpuo='git push -u origin'
 
 alias gcp='git cherry-pick'
 
-alias gll='git log --graph --pretty=oneline --abbrev-commit'
-alias gg="git log --graph --pretty=format:'%Cred%h%Creset -%C(yellow)%d%Creset %s %Cgreen(%cr)%Creset' --abbrev-commit --date=relative"
-alias ggs="gg --stat"
+alias gd='git diff'
+
+alias glog='git log --graph --pretty=oneline --abbrev-commit'
+alias glogv="git log --graph --pretty=format:'%Cred%h%Creset -%C(yellow)%d%Creset %s %Cgreen(%cr)%Creset' --abbrev-commit --date=relative"
+alias ggs='glogv --stat'
 
 # RANDOM ALIASES
 
