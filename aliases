@@ -1,10 +1,10 @@
 # Remove all existing aliases
 unalias -a
 
-# GENERAL NAVIGATION AND FILE STRUCTURE ALIASES
+# GENERAL ALIASES
 
 alias ..="cd .."
-alias ~="cd ~" # `cd` is probably faster to type though
+alias ~="cd ~"
 alias -- -="cd -"
 
 if ls --color > /dev/null 2>&1; then # GNU `ls`
@@ -70,6 +70,25 @@ alias glogv="git log --graph --pretty=format:'%Cred%h%Creset -%C(yellow)%d%Crese
 alias ggs="glogv --stat"
 
 # TODO: add heroku aliases?
+# TODO: add homebrew aliases?
+
+# RAILS ALIASES
+
+alias r="rails"
+
+alias rg="rails generate"
+alias rd="rails destroy"
+
+alias rs="rails server"
+
+alias rc="rails console"
+alias rd="rails dbconsole"
+
+alias kdd="rake db:drop"
+alias kdc="rake db:create"
+alias kdm="rake db:migrate"
+alias kds="rake db:seed"
+alias kda="rake db:drop db:create db:migrate db:seed"
 
 # RANDOM ALIASES
 
