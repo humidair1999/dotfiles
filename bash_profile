@@ -1,9 +1,13 @@
-for file in ~/.{aliases,bash_prompt}; do
+for file in ~/.{aliases,bash_prompt,git-completion}; do
     echo $file
     [ -r "$file" ] && source "$file"
 done
 
 unset file
+
+# http://stackoverflow.com/questions/342969/how-do-i-get-bash-completion-to-work-with-aliases
+__git_complete gco _git_checkout
+__git_complete gbd _git_branch
 
 # Case-insensitive globbing (used in pathname expansion) when using `*`
 shopt -s nocaseglob
