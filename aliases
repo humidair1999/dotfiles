@@ -74,8 +74,6 @@ alias ggs="glogv --stat"
 
 # RAILS ALIASES
 
-alias r="rails"
-
 alias rg="rails generate"
 alias rd="rails destroy"
 
