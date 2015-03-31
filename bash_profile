@@ -2,6 +2,7 @@ for file in ~/.{aliases,bash_prompt}; do
     echo $file
     [ -r "$file" ] && source "$file"
 done
+
 unset file
 
 # Case-insensitive globbing (used in pathname expansion) when using `*`
