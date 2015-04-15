@@ -60,7 +60,6 @@ alias gfr="git fetch && git rebase"
 
 alias gp="git push"
 alias gpo="git push origin"
-alias gpuo="git push -u origin"
 
 alias gcp="git cherry-pick"
 
