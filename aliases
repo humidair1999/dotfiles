@@ -44,6 +44,7 @@ alias gcm="git commit -v -m"
 alias gci="git commit --interactive"
 
 alias gco="git checkout"
+alias gcob="git checkout -b"
 
 alias gb="git branch"
 alias gba="git branch -a"
