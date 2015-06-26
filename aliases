@@ -69,6 +69,8 @@ alias glog="git log --graph --pretty=oneline --abbrev-commit"
 alias glogv="git log --graph --pretty=format:'%Cred%h%Creset -%C(yellow)%d%Creset %s %Cgreen(%cr)%Creset' --abbrev-commit --date=relative"
 alias ggs="glogv --stat"
 
+alias grpo="git remote prune origin"
+
 alias gcch="git config credential.helper 'cache --timeout=1800'"
 
 # TODO: add heroku aliases?
