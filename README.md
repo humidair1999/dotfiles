@@ -16,6 +16,13 @@ new upstream branch:
     default = current
 ```
 
+Set the following to use Sublime Text as the default editor for git:
+
+```
+[core]
+	editor = subl -w
+```
+
 ### resources
 
 - http://blog.smalleycreative.com/tutorials/using-git-and-github-to-manage-your-dotfiles/
