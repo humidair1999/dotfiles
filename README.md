@@ -18,15 +18,13 @@ Set the following in global `.gitconfig` to avoid needing to use `-u` when pushi
 new upstream branch:
 
 ```
-[push]
-    default = simple
+git config --global push.default simple
 ```
 
 Set the following to use Sublime Text as the default editor for git:
 
 ```
-[core]
-	editor = subl -w
+git config --global core.editor "sublime -w"
 ```
 
 ### resources
