@@ -13,7 +13,7 @@ new upstream branch:
 
 ```
 [push]
-    default = current
+    default = simple
 ```
 
 Set the following to use Sublime Text as the default editor for git:
