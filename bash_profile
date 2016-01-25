@@ -20,10 +20,3 @@ bind "set completion-ignore-case on"
 bind "set show-all-if-ambiguous on"
 
 # below added to bash_profile automatically by apps
-
-export PATH="/usr/local/bin:$PATH"
-
-eval "$(rbenv init -)"
-
-export NVM_DIR="/Users/josh/.nvm"
-[ -s "$NVM_DIR/nvm.sh" ] && . "$NVM_DIR/nvm.sh"  # This loads nvm
