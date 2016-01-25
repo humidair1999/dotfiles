@@ -1,4 +1,4 @@
-for file in ~/.{aliases,bash_prompt,git-completion}; do
+for file in ~/.{aliases,bash_prompt,bashrc,git-completion}; do
     echo $file
     [ -r "$file" ] && source "$file"
 done
@@ -19,4 +19,4 @@ shopt -s cdspell
 bind "set completion-ignore-case on"
 bind "set show-all-if-ambiguous on"
 
-# below added to bash_profile automatically by apps
+# below added automatically by apps
