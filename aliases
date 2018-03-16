@@ -61,6 +61,7 @@ alias gfr="git fetch && git rebase"
 
 alias gp="git push"
 alias gpo="git push origin"
+alias gpod="git push origin --delete"
 
 alias gcp="git cherry-pick"
 

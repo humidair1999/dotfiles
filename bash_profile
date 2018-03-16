@@ -8,6 +8,8 @@ unset file
 # http://stackoverflow.com/questions/342969/how-do-i-get-bash-completion-to-work-with-aliases
 __git_complete gco _git_checkout
 __git_complete gbd _git_branch
+__git_complete gm _git_merge
+__git_complete gpod _git_push
 
 # Match filenames in a case-insensitive fashion when performing
 # filename expansion.
