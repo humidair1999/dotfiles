@@ -9,7 +9,7 @@ unset file
 __git_complete gco _git_checkout
 __git_complete gbd _git_branch
 __git_complete gm _git_merge
-__git_complete gpod _git_push
+__git_complete gr _git_rebase
 
 # Match filenames in a case-insensitive fashion when performing
 # filename expansion.

@@ -53,6 +53,8 @@ alias gbd="git branch -D"
 
 alias gm="git merge"
 
+alias gr="git rebase"
+
 alias gl="git pull"
 alias glo="git pull origin"
 alias glr="git pull --rebase"
