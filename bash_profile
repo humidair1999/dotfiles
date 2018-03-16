@@ -9,11 +9,19 @@ unset file
 __git_complete gco _git_checkout
 __git_complete gbd _git_branch
 
-# Case-insensitive globbing (used in pathname expansion) when using `*`
+# Match filenames in a case-insensitive fashion when performing
+# filename expansion.
 shopt -s nocaseglob
 
-# Autocorrect typos in path names when using `cd`
+# Autocorrect typos in path names when using the `cd` command.
 shopt -s cdspell
+
+# Include filenames beginning with a "." in the filename expansion.
+shopt -s dotglob
+
+# Do not attempt to search the PATH for possible completions when
+# completion is attempted on an empty line.
+shopt -s no_empty_cmd_completion
 
 # http://superuser.com/questions/90196/case-insensitive-tab-completion-in-bash
 bind "set completion-ignore-case on"

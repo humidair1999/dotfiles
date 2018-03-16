@@ -1,4 +1,5 @@
-# Remove all existing aliases
+# REMOVE EXISTING ALIASES
+
 unalias -a
 
 # GENERAL ALIASES
@@ -15,7 +16,7 @@ alias chmox='chmod -x'
 
 alias where=which
 
-alias clr="clear"
+alias c="clear"
 
 # FILE DISPLAY AND ALIASES
 
@@ -65,7 +66,8 @@ alias gcp="git cherry-pick"
 
 alias gd="git diff"
 
-alias glog="git log --graph --pretty=oneline --abbrev-commit"
+alias glog="git log --abbrev-commit"
+alias glogp="git log --graph --pretty=oneline --abbrev-commit"
 alias glogv="git log --graph --pretty=format:'%Cred%h%Creset -%C(yellow)%d%Creset %s %Cgreen(%cr)%Creset' --abbrev-commit --date=relative"
 alias ggs="glogv --stat"
 
@@ -73,28 +75,7 @@ alias grpo="git remote prune origin"
 
 alias gcch="git config credential.helper 'cache --timeout=1800'"
 
-# TODO: add heroku aliases?
-# TODO: add homebrew aliases?
-
-# RAILS ALIASES
-
-alias rg="rails generate"
-alias rd="rails destroy"
-
-alias rs="rails server"
-
-alias rc="rails console"
-alias rd="rails dbconsole"
-
-alias kdd="rake db:drop"
-alias kdc="rake db:create"
-alias kdm="rake db:migrate"
-alias kds="rake db:seed"
-alias kda="rake db:drop db:create db:migrate db:seed"
-
-# RANDOM ALIASES
-
-alias nw="/Applications/node-webkit.app/Contents/MacOS/node-webkit"
+# OSX ALIASES
 
 alias show="defaults write com.apple.finder AppleShowAllFiles -bool true && killall Finder"
 alias hide="defaults write com.apple.finder AppleShowAllFiles -bool false && killall Finder"
